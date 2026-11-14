@@ -1,12 +1,3 @@
-/**
- * ==============================================================================
- * TryFinally — Topluluk Forumu Tip Tanımları (Forum Types)
- * ==============================================================================
- * Bu dosya, forum başlıkları, yorumlar, oylamalar ve kategoriler için
- * temel domain modellerini içerir.
- * ==============================================================================
- */
-
 export type ForumCategory =
   | "genel"
   | "algoritmalar"
@@ -38,11 +29,7 @@ export interface ForumThread {
   authorId: string;
   authorName: string;
   authorAvatar?: string;
-<<<<<<< HEAD
   puzzleId?: string;
-=======
-  problemId?: string; // İlgili problem varsa bağlantısı
->>>>>>> origin/main
   createdAt: string;
   updatedAt: string;
   votes: number;
